@@ -1,0 +1,14 @@
+{
+  "name": "infiltrados",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Jogo de identidade oculta para jogar pelo celular, online ou na mesma mesa.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
